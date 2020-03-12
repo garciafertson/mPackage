@@ -31,6 +31,11 @@ printX <- function() {
   print(x)
 }
 
+#' @export
+calRowSds <- function(x) {
+  matrixStats::rowSds(x)
+}
+
 #use_data(x, internal = T)
 
 #system.file("x", package = "mPackage")
