@@ -17,5 +17,10 @@ hello <- function() {
   print("Hello, world!")
 }
 
+printTest <- function() {
+  print("test")
+
+}
+
 
 
