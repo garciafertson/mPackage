@@ -26,8 +26,8 @@ printTest <- function() {
 
 }
 
-use_data("x", internal = T)
+#use_data(x, internal = T)
 
-system.file("x", package = "mPackage")
+#system.file("x", package = "mPackage")
 
 
