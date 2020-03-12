@@ -2,3 +2,4 @@
 
 export(hello)
 export(printTest)
+export(printX)

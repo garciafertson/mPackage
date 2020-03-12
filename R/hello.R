@@ -26,6 +26,11 @@ printTest <- function() {
 
 }
 
+#' @export
+printX <- function() {
+  print(x)
+}
+
 #use_data(x, internal = T)
 
 #system.file("x", package = "mPackage")
