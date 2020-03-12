@@ -13,6 +13,8 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
+library(matrixStats)
+
 #' @export
 hello <- function() {
   print("Hello, world!")
@@ -24,5 +26,8 @@ printTest <- function() {
 
 }
 
+use_data("x", internal = T)
+
+system.file("x", package = "mPackage")
 
 
