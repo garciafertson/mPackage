@@ -17,7 +17,7 @@ library(matrixStats)
 
 
 .onAttach <-function(libname, pkgname) {
-  packageStartupMessage("Welcome to micribome analysis package")
+  packageStartupMessage("\n Welcome to micribome analysis package \n")
 }
 #' @export
 hello <- function() {
