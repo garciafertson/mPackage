@@ -34,11 +34,11 @@ Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., microbiome, 2020
  
 ### Acknowledgments
 
-* INRA(http://www.mgps.eu/index.php?id=accueil)
-* SciLifeLab(https://www.scilifelab.se/)
-* KCL(https://www.sysbiomelab.com/)
-* KTH(https://www.kth.se/en)
-* Karolinska Institute(https://ki.se/en)
-* KAIST(https://www.kaist.ac.kr/kr/)
+*  [INRA](http://www.mgps.eu/index.php?id=accueil)
+*  [SciLifeLab](https://www.scilifelab.se/)
+*  [KCL](https://www.sysbiomelab.com/)
+*  [KTH](https://www.kth.se/en)
+*  [Karolinska Institute](https://ki.se/en)
+*  [KAIST](https://www.kaist.ac.kr/kr/)
 
 
