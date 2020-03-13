@@ -20,7 +20,7 @@ install.packages("devtools")
 install_github("sysbiomelab/mPackage")
 ```
  
-### example
+### Running example
 ### Citation
 
 Saeed Shoaie, Sunjae Lee, et al., microbiome, 2020
