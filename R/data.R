@@ -39,4 +39,4 @@
 #'   ...
 #' }
 #' @source \url{http://www.diamondse.info/}
-"gutTaxo"
+"gutTaxoTab"
