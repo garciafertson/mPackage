@@ -28,7 +28,8 @@ Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., microbiome, 2020
 ### Authors
 
 [Sunjae Lee](https://github.com/SunjaeLee)
-[Gholamreza Bidkhori]
+
+[Gholamreza Bidkhori](https://scholar.google.com/citations?user=LrCrMp0AAAAJ&hl=en)
 
  
 ### Acknowledgments
