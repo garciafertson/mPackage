@@ -23,7 +23,7 @@ install_github("sysbiomelab/mPackage")
 ### Running example
 ### Citation
 
-Saeed Shoaie, Sunjae Lee, et al., microbiome, 2020
+Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., microbiome, 2020
 
 ### Authors
 
