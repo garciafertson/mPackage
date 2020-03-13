@@ -1,6 +1,6 @@
 # mPackage ver 0.1.0
 
-Temporal and functional analysis of human gut micribome changes
+Temporal and functional analysis of human gut microbiome changes
 
 
 
