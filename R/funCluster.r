@@ -203,8 +203,9 @@ getCoveredMspByModules <- function(mspKoModules, mspKoMat, cutRatio=0.75, debug=
   return(mspTab)
 }
 
+### printing out something during installation ###
 
-
+print("\n...installing...\n")
 #mspKoModules = makeFuncCluster(mspKoMat)
 #mspKoDescModules = getDescriptionOfKeggOrthologFromModules(mspKoModules)
 #mspByModuleTab = getCoveredMspByModules(mspKoModules, mspKoMat)
@@ -216,7 +217,7 @@ getCoveredMspByModules <- function(mspKoModules, mspKoMat, cutRatio=0.75, debug=
 #mspKoMat = mspKoMat[,colnames(mspKoMat) %in% koTermsNew]
 #use_data(mspKoMat, koDescMap, gutTaxoTab, internal=T, overwrite = T)
 #system.file("")
-print("123")
+#print("123")
 
 # save(koDescMap, gutTaxoTab, mspKoMat, file="./data/example.RData")
 # save(koDescMap, file="./data/koDescMap.RData")
