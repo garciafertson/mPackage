@@ -41,7 +41,7 @@ makeJaccNet <- function(jaccMat, cutJacc = 0.5) {
   jaccNet = igraph::graph.data.frame(jaccTable[,1:2], directed=F)
   jaccNet = igraph::simplify(jaccNet, remove.multiple=T, remove.loops=T)
 
-  jaccNet = add_vertices(jaccNet, length(jaccElementsExcluded), attr=list(name=jaccElementsExcluded))
+  jaccNet = igraph::add_vertices(jaccNet, length(jaccElementsExcluded), attr=list(name=jaccElementsExcluded))
 
   return(jaccNet)
 }
@@ -205,7 +205,6 @@ getCoveredMspByModules <- function(mspKoModules, mspKoMat, cutRatio=0.75, debug=
 
 ### printing out something during installation ###
 
-print("\n...installing...\n")
 #mspKoModules = makeFuncCluster(mspKoMat)
 #mspKoDescModules = getDescriptionOfKeggOrthologFromModules(mspKoModules)
 #mspByModuleTab = getCoveredMspByModules(mspKoModules, mspKoMat)
