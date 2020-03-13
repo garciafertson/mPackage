@@ -1,14 +1,16 @@
 Package: mPackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Temporal and functional analysis of human gut microbiome changes (mPackage)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Sunjae Lee
+Maintainer: Sunjae Lee <sunjae.lee@kcl.ac.uk>
+Description: This package will allow you to explore temporal and functional analysis 
+    of human gut-associated metagenomics species pangenome (MSP).
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
 Imports: 
     matrixStats (>= 0.55.0)
+    reshape2 (>=1.4.3)
+    igraph (>=1.2.4.2)
