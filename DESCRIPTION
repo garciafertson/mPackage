@@ -12,5 +12,5 @@ LazyData: true
 RoxygenNote: 7.0.2
 Imports: 
     matrixStats (>= 0.55.0)
-    reshape2 (>=1.4.3)
-    igraph (>=1.2.4.2)
+    reshape2 (>= 1.4.3)
+    igraph (>= 1.2.4.2)
