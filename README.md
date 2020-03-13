@@ -21,6 +21,16 @@ install_github("sysbiomelab/mPackage")
 ```
  
 ### Running example
+
+```
+#identifying functional clusters from mapping matrix
+mspKoModules = makeFuncCluster(mspKoMat) 
+
+#identifying highly covered MSPs by functional clusters
+mspByModuleTab = getCoveredMspByModules(mspKoModules, mspKoMat) 
+
+
+```
 ### Citation
 
 Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., microbiome, 2020
