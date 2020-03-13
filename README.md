@@ -31,6 +31,8 @@ Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., microbiome, 2020
 
 [Gholamreza Bidkhori](https://scholar.google.com/citations?user=LrCrMp0AAAAJ&hl=en)
 
+### Contacts
+sunjae.lee@kcl.ac.uk(mailto:sunjae.lee@kcl.ac.uk)
  
 ### Acknowledgments
 
@@ -39,6 +41,6 @@ Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., microbiome, 2020
 *  [KCL](https://www.sysbiomelab.com/)
 *  [KTH](https://www.kth.se/en)
 *  [Karolinska Institute](https://ki.se/en)
-*  [KAIST](https://www.kaist.ac.kr/kr/)
+*  [KAIST](https://www.kaist.ac.kr/en/)
 
 
