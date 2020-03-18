@@ -50,7 +50,7 @@ makeJaccNet <- function(jaccMat, cutJacc = 0.5) {
 makeModuleList <- function(corNet, debug=F) {
   fc = igraph::cluster_walktrap(corNet)
   cluster = fc$membership
-  geneCluster = data.frame(gene=V(corNet)$name,
+  geneCluster = data.frame(gene=igraph::V(corNet)$name,
                            cluster=cluster,
                            stringsAsFactors=F)
   geneClusterList = split.data.frame(geneCluster, geneCluster$cluster)
