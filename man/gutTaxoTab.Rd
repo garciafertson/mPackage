@@ -3,7 +3,7 @@
 \docType{data}
 \name{gutTaxoTab}
 \alias{gutTaxoTab}
-\title{MSP taxonomy table}
+\title{gut MSP taxonomy table}
 \format{data frame with taxonomy
 \describe{
   \item{MSP}{MSP id}
@@ -13,11 +13,17 @@
 }}
 \source{
 \url{http://www.diamondse.info/}
+
+\url{http://www.diamondse.info/}
 }
 \usage{
+gutTaxoTab
+
 gutTaxoTab
 }
 \description{
 A dataset containing the taxonomy of MSPs
+
+A dataset containing the functional clusters
 }
 \keyword{datasets}

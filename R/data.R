@@ -27,7 +27,7 @@
 "koDescMap"
 
 
-#' MSP taxonomy table
+#' gut MSP taxonomy table
 #'
 #' A dataset containing the taxonomy of MSPs
 #'
@@ -41,4 +41,16 @@
 #' @source \url{http://www.diamondse.info/}
 "gutTaxoTab"
 
-
+#' 7,763 functional clusters
+#'
+#' A dataset containing the functional clusters
+#'
+#' @format data frame with taxonomy
+#' \describe{
+#'   \item{MSP}{MSP id}
+#'   \item{size}{the number of genes included}
+#'   \item{species}{species-level}
+#'   ...
+#' }
+#' @source \url{http://www.diamondse.info/}
+"gutTaxoTab"

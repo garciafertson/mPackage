@@ -29,6 +29,11 @@ mspKoModules = makeFuncCluster(mspKoMat)
 #identifying highly covered MSPs by functional clusters
 mspByModuleTab = getCoveredMspByModules(mspKoModules, mspKoMat) 
 
+#identifying inflow/outflow probablities 
+inflowStats = getInflowStats(metadata, mgsMat)
+outflowStats = getOutflowStats(metadata, mgsMat)
+
+
 
 ```
 ### Citation

@@ -13,26 +13,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-library(matrixStats)
-
 
 .onAttach <-function(libname, pkgname) {
   packageStartupMessage("\n Welcome to micribome analysis package \n")
 }
-#' @export
-hello <- function() {
-  print("Hello, world!")
-}
-
-#' @export
-printTest <- function() {
-  print("test")
-
-}
-
-
-#use_data(x, internal = T)
-
-#system.file("x", package = "mPackage")
-
-
