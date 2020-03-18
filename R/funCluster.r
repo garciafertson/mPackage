@@ -197,7 +197,7 @@ getCoveredMspByModules <- function(mspKoModules, mspKoMat, cutRatio=0.75, debug=
     currMspsByFuncs = currMspsByFuncs[currMspsByFuncs>=(lenCurrFuncs*cutRatio)]
     return(names(currMspsByFuncs))
   })
-  mspTab =  melt(mspList)[,c(2,1)]
+  mspTab =  reshape2::melt(mspList)[,c(2,1)]
   colnames(mspTab) = c("Cluster", "MSP")
   mspTab$species = getSpeciesName(mspTab$MSP, gutTaxo)
   return(mspTab)

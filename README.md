@@ -30,8 +30,8 @@ mspKoModules = makeFuncCluster(mspKoMat)
 mspByModuleTab = getCoveredMspByModules(mspKoModules, mspKoMat) 
 
 #identifying inflow/outflow probablities 
-inflowStats = getInflowStats(metadata, mgsMat)
-outflowStats = getOutflowStats(metadata, mgsMat)
+inflowStats = getInflowStats(metaTab, mgsMat)
+outflowStats = getOutflowStats(metaTab, mgsMat)
 
 
 
