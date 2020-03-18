@@ -38,7 +38,7 @@ outflowStats = getOutflowStats(metaTab, mgsMat)
 ```
 ### Citation
 
-Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., microbiome, 2020
+Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., in preparation, 2020
 
 ### Authors
 
