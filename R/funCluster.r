@@ -199,7 +199,7 @@ getCoveredMspByModules <- function(mspKoModules, mspKoMat, cutRatio=0.75, debug=
   })
   mspTab =  reshape2::melt(mspList)[,c(2,1)]
   colnames(mspTab) = c("Cluster", "MSP")
-  mspTab$species = getSpeciesName(mspTab$MSP, gutTaxo)
+  mspTab$species = getSpeciesName(mspTab$MSP, gutTaxoTab)
   return(mspTab)
 }
 
