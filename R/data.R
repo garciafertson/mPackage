@@ -7,23 +7,20 @@
 #'   \item{row}{MSPs}
 #'   \item{column}{KEGG orthology terms}
 #' }
-#' @source \url{http://www.diamondse.info/}
 "mspKoMat"
 
 
 
 #' KEGG orthology description table
 #'
-#' A dataset containing the prices and other attributes of almost 54,000
-#' diamonds.
+#' A dataset containing KEGG orthology term descriptions
 #'
-#' @format matrix
+#' @format data frame
 #' \describe{
 #'   \item{KO}{KO ID}
 #'   \item{gene}{Gene ID}
 #'   \item{desc}{KO description}
 #' }
-#' @source \url{http://www.diamondse.info/}
 "koDescMap"
 
 
@@ -38,19 +35,39 @@
 #'   \item{species}{species-level}
 #'   ...
 #' }
-#' @source \url{http://www.diamondse.info/}
 "gutTaxoTab"
 
 #' 7,763 functional clusters
 #'
 #' A dataset containing the functional clusters
 #'
-#' @format data frame with taxonomy
+#' @format list of functional clusters
 #' \describe{
-#'   \item{MSP}{MSP id}
-#'   \item{size}{the number of genes included}
-#'   \item{species}{species-level}
+#'   \item{each item}{list of function/phenotype terms of given cluster}
 #'   ...
 #' }
-#' @source \url{http://www.diamondse.info/}
-"gutTaxoTab"
+"funcModules"
+
+#' longitudinal Swedish cohort metadata
+#'
+#' A dataset containing sample metadata of longitudinal Swedish cohort
+#'
+#' @format data frame
+#' \describe{
+#'   \item{sampleId}{each id corresponds to the column of mgsMat}
+#'   \item{metadataId}{each subject id}
+#'   \item{time}{time passed after first visit (days)}
+#' }
+"metaTab"
+
+#' MSP abundance matrix of longitudinal Swedish cohort
+#'
+#' A dataset containing MSP abundance profile
+#'
+#' @format matrix
+#' \describe{
+#'   \item{row}{MSPs}
+#'   \item{column}{KEGG orthology terms}
+#' }
+"mgsMat"
+

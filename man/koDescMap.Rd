@@ -4,20 +4,16 @@
 \name{koDescMap}
 \alias{koDescMap}
 \title{KEGG orthology description table}
-\format{matrix
+\format{data frame
 \describe{
   \item{KO}{KO ID}
   \item{gene}{Gene ID}
   \item{desc}{KO description}
 }}
-\source{
-\url{http://www.diamondse.info/}
-}
 \usage{
 koDescMap
 }
 \description{
-A dataset containing the prices and other attributes of almost 54,000
-diamonds.
+A dataset containing KEGG orthology term descriptions
 }
 \keyword{datasets}

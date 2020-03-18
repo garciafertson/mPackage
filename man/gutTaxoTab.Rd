@@ -11,19 +11,10 @@
   \item{species}{species-level}
   ...
 }}
-\source{
-\url{http://www.diamondse.info/}
-
-\url{http://www.diamondse.info/}
-}
 \usage{
-gutTaxoTab
-
 gutTaxoTab
 }
 \description{
 A dataset containing the taxonomy of MSPs
-
-A dataset containing the functional clusters
 }
 \keyword{datasets}
