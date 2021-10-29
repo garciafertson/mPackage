@@ -13,6 +13,7 @@
 mgsMat
 }
 \description{
-A dataset containing MSP abundance profile
+A dataset containing metagenomic species pan-genome (MSP) abundance profile
 }
 \keyword{datasets}
+
