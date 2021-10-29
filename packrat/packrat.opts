@@ -17,3 +17,4 @@ snapshot.fields:
     Depends
     LinkingTo
 symlink.system.packages: TRUE
+
