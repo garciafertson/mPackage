@@ -13,6 +13,6 @@
 mspKoMat
 }
 \description{
-A dataset containing KO mapping to gut MSP
+A dataset containing KEGG orthology (KO) mapping to gut MSP
 }
 \keyword{datasets}
