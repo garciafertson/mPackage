@@ -38,7 +38,7 @@ outflowStats = getOutflowStats(metaTab, mgsMat)
 ```
 ### Citation
 
-Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., in preparation, 2020
+Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., in preparation
 
 ### Authors
 
@@ -47,6 +47,7 @@ Saeed Shoaie, Sunjae Lee, Gholamreza Bidkhori et al., in preparation, 2020
 [Gholamreza Bidkhori](https://scholar.google.com/citations?user=LrCrMp0AAAAJ&hl=en)
 
 ### Contacts
+leesunjae@gist.ac.kr
 sunjae.lee@kcl.ac.uk
  
 ### Acknowledgments
@@ -57,5 +58,6 @@ sunjae.lee@kcl.ac.uk
 *  [KTH](https://www.kth.se/en)
 *  [Karolinska Institute](https://ki.se/en)
 *  [KAIST](https://www.kaist.ac.kr/en/)
+*  [GIST](https://www.gist.ac.kr/)
 
 
