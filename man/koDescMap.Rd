@@ -14,6 +14,7 @@
 koDescMap
 }
 \description{
-A dataset containing KEGG orthology term descriptions
+A dataset containing KEGG orthology term descriptions (per each KO)
 }
 \keyword{datasets}
+
