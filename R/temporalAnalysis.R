@@ -8,7 +8,7 @@ checkDetectionLimit <- function(mgsMat, percent=0.01) {
 
   mgsMatScaledNonZero = mgsMatScaled[mgsMatScaled!=0]
   mgsMatScaledNonZero = log2(mgsMatScaledNonZero)
-  fit.gamma = fitdist(mergeMatScaledNonZero, "gamma")
+  fit.gamma = fitdist(mgsMatScaledNonZero, "gamma")
   plot(fit.gamma)
   fit.gamma$estimate
 
@@ -100,7 +100,7 @@ getOutflowStats <- function(metaTab, mgsMat, detectionLimit=1.647821e-08) {
 
     }, simplify = F))
 
-    myMarkovFit<-markovchainFit(data=markovSeqOfMsp,confidencelevel = .9,method = "mle")
+    myMarkovFit<-markovchain::markovchainFit(data=markovSeqOfMsp,confidencelevel = .9,method = "mle")
     myMarkovMat = myMarkovFit$estimate@transitionMatrix
     myMarkovUpper = myMarkovFit$upperEndpointMatrix
     myMarkovLower = myMarkovFit$lowerEndpointMatrix
